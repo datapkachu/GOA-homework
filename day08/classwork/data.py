@@ -1,0 +1,6 @@
+print(10==11 and 30>14)
+print(5<9 and 9==9)
+print(7<3 and 5>7)
+print(5>6 or 87==87)
+print(4<6 or 8>7)
+print(7<9 or 3>6)
