@@ -12,7 +12,7 @@ while i < 21:
 
 
 age = input("how old are u?")
-if age == str(18):
+if age >= str(18):
     print("you are an adult")
 else:
     print("you are a kid")
