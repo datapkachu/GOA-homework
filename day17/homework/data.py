@@ -18,13 +18,45 @@
 #     print("ზრდასრული ხართ")
 # elif 121 > b > 64:
 #     print("ხანში შესული ხართ")
-# if b < 0:
+# elif b < 0:
 #     print("არასწორი ინფო")
 
 
-c = "ah_hell_nah"
-if c == "ah_hell_nah":
-    print("password is correct")
-else:
-    print("password is incorrect, please try again")
-    input("enter password:")
+# c=input("guess my password:")
+# while c != "123":
+#     c=input("guess my password:")
+#     if c == "123":
+#         print("password is correct, it took u many attempts")
+#     elif c == "nah strong password":
+#         print("bud gave up")
+#         break
+
+
+# d=float(input("რიცხვი1:"))
+# e=float(input("რიცხვი2:"))
+# f=float(input("რიცხვი3:"))
+# if f < d > e :
+#     print(d)
+# elif d < f > e:
+#     print(f)
+# elif f < e > d:
+#     print(e)
+
+
+# g=int(input("შემოიტანეთ რიცხვი 1 დან 7 ის ჩათვლით:"))
+# if g == 1:
+#     print("ორშაბათ")
+# elif g == 2:
+#     print("სამშაბათი")
+# elif g == 3:
+#     print("ოთხშაბათი")
+# elif g == 4:
+#     print("ხუთშაბათი")
+# elif g == 5:
+#     print("პარასკევი")
+# elif g == 6:
+#     print("შაბათი")
+# elif g == 7:
+#     print("კვირა")
+# else:
+#     print("არ ვიცი ეგ რა დღეა")
