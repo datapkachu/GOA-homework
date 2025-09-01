@@ -13,7 +13,7 @@
 #     print("nothing is equal")
 
 
-# d=int(input("choose a numbver between 1 to 12:"))
+# d=int(input("choose a number between 1 to 12:"))
 # if d==12 or d==1 or d==2:
 #     print("winter")
 # elif d==3 or d==4 or d==5:
