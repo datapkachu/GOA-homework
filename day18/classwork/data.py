@@ -1,6 +1,6 @@
-# a=str(input("1st number:"))
-# b=str(input("2nd number:"))
-# c=str(input("3rd number:"))
+# a=int(input("1st number:"))
+# b=int(input("2nd number:"))
+# c=int(input("3rd number:"))
 # if a==b:
 #     print("1 and 2 are equal")
 # elif a==c:
@@ -13,7 +13,7 @@
 #     print("nothing is equal")
 
 
-# d=str(input("choose a numbver between 1 to 12:"))
+# d=int(input("choose a numbver between 1 to 12:"))
 # if d==12 or d==1 or d==2:
 #     print("winter")
 # elif d==3 or d==4 or d==5:
