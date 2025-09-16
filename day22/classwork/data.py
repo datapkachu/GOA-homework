@@ -13,6 +13,6 @@
 
 list2 = ["badrijani","gogra","xaxvi","kitri","kartofili","nirori"]
 list2[0] = "viri"
-list2[2] = "tagvi"
-list2[4] = "bokveri"
+list2[3] = "tagvi"
+list2[5] = "bokveri"
 print(list2)
