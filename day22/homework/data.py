@@ -8,7 +8,7 @@
 # print(a[0]*a[3])
 # print(a[0]*a[2])
 # print(a[1]+a[2])
-# print("27 ვერ მიიღებ ამ ციფრებით")
+# print("27 ვერ მიიღებ 2 ციფრის გამოყენებით")
 
 
 # b=["data","joora","zura","nika","luka","dachi","irakli","goga","sandro","andria"]
