@@ -21,3 +21,4 @@ print(b[-1])
 
 name6="irakli"
 print(name6[3])
+print(name6[-3])

@@ -1,7 +1,7 @@
 a=[1,2,3,4,5,6,7]
 print(a[-1]*a[-7])
 print(a[2])
-print(a[-5])
+print(a[-3])
 
 
 b=("apple","banana","cherry","grape","kiwi","orange")
