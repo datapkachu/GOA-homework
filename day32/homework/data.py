@@ -8,7 +8,9 @@ for i in range(1,50):
 
 
 for i in range(20):
-    if i % 3 == 0:
+    if i % 15 == 0:
+        print(f"იყოფა 3-ზე და 5-ზე{i}")
+    elif i % 3 == 0:
         print(f"იყოფა 3-ზე {i}")
     elif i % 5 == 0:
         print(f"იყოფა 5-ზე{i}")
@@ -16,6 +18,19 @@ for i in range(20):
         print(f"იყოფა 3-ზე და 5-ზე{i}")
     else:
         print(f"არ იყოფა არცერთზე {i}")
+
+
+x=0
+y=0
+f=int(input("enter any number :"))
+for i in range(f):
+    if i % 2 == 0:
+        x += 1
+    elif i % 2 != 0:
+        y += 1
+print(x)
+print(y)
+
 
 
 a=[10, 25, 33, 47, 80, 99]
