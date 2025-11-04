@@ -1,6 +1,6 @@
-a = input("type in any word :")
-print("a" in a or "A" in a)
-print("car" not in a)
+# a = input("type in any word :")
+# print("a" in a or "A" in a)
+# print("car" not in a)
 
 
 b = input("enter anything :")
