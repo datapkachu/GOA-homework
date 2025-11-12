@@ -50,8 +50,7 @@ for i in k:
 
 m = input("enter first number :")
 n = input("enter second number :")
-o = 0
-for i in range(int(m),int(n)):
+o = input("enter third number :")
+for i in range(int(m),int(n),int(o)):
     if i % 2 == 0:
-        o += 1
         print(i)
