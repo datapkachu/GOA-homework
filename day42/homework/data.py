@@ -106,8 +106,8 @@ else:
 # 18)შექმენი სია nums = [10, 20, 30]. მომხმარებელს შემოატანინე მთელი რიცხვი. თუ რიცხვი nums სიაშია,
 # დაბეჭდე "Already in list", თუ არა — append()-ით დაამატე 40 და დაბეჭდე სია.
 nums = [10, 20, 30]
-a = input("what number would u like to add in my list :")
-if int(a) in nums:
+a = int(input("what number would u like to add in my list :"))
+if a in nums:
     print("already in list")
 else:
     nums.append(40)
@@ -125,9 +125,9 @@ print(letters)
 # 20)შექმენი სია values = [1, 2, 3, 4]. მომხმარებელს შემოატანინე ინდექსი. თუ ინდექსი სიის ფარგლებშია,
 # pop()-ით ამოშალე შესაბამისი ელემენტი; თუ არა, დაბეჭდე "Index out of range". ბოლოს დაბეჭდე სია.
 values = [1, 2, 3, 4]
-c = input("enter any number :")
-if int(c) in values:
-    values.pop(int(c))
+c = int(input("enter any number :"))
+if c in values:
+    values.pop(c)
     print(values)
 else:
     print("Index out of range")
@@ -149,11 +149,11 @@ else:
 # დაბეჭდე რამდენჯერ არის სიაში - count() ფუნქციის გამოყენებით. სხვა შემთხვევაში append()-ით ჩასვი
 # ის სიაში და დაბეჭდე სია.
 a = [5, 5, 7]
-e = input("enter any number :")
-if int(e) in a:
-    print(a.count(int(e)))
+e = int(input("enter any number :"))
+if e in a:
+    print(a.count(e))
 else:
-    a.append(int(e))
+    a.append(e)
     print(a)
 
 
@@ -167,15 +167,15 @@ if len(queue) > 5:
     queue.pop(-1)
     print(queue)
 else:
-    print(queue)
+    print(queue.reverse())
 
 
 # 24)შექმენი სია nums = [2, 4, 6].  მომხმარებელს შემოატანინე რიცხვი. თუ რიცხვი დადებულია,
 # append()-ით დაამატე; თუ 0-ია ან ნაკლებია ნულზე, დაბეჭდე "Only positive allowed". ბოლოს დაბეჭდე სია.
 nums = [2, 4, 6]
-g = input("enter any number :")
-if int(g) > 0:
-    nums.append(int(g))
+g = int(input("enter any number :"))
+if g > 0:
+    nums.append(g)
 else:
     print("only positive allowed")
 print(nums)
