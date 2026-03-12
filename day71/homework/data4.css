@@ -1,0 +1,10 @@
+.a{
+    color: rgb(229, 108, 128);
+    size: 30px;
+    font-weight: bold;
+}
+
+td{
+    background-color: rgb(23, 23, 234);
+    border:2px solid rgb(247, 247, 7);
+}

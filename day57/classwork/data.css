@@ -1,0 +1,13 @@
+p{
+    font-size: 50px;
+    border: 1px solid green;
+    color: yellow;
+    text-align: center;
+}
+button{
+    height: 60px;
+    width: 100px;
+    background-color: red;
+    color: yellow;
+    border: none;
+}

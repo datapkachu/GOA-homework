@@ -1,0 +1,17 @@
+.data{
+    text-decoration-line: overline underline line-through;
+    text-decoration-style: wavy;
+    text-decoration-color: red;
+}
+
+.a{
+    text-decoration-line: line-through;
+    text-decoration-style: double;
+    text-decoration-color: blue;
+}
+
+.b{
+    text-decoration-line: overline;
+    text-decoration-style: dotted;
+    text-decoration-color: green;
+}

@@ -1,0 +1,13 @@
+div{
+    font-size: 15px;
+    color: blue;
+    background-color: green;
+    text-align: center;
+}
+section div{
+    font-size: 18px;
+    color: green;
+    background-color: red;
+    text-align: center;
+    border: 2px solid black;
+}

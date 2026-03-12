@@ -1,0 +1,56 @@
+header a{
+    padding: auto;
+    color: black;
+    font-size: 20px;
+}
+
+
+header{
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+}
+
+
+div{
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+}
+
+
+div h1{
+    font-size: 70px;
+}
+
+
+div p{
+    font-size: 40px;
+}
+
+
+div button{
+    background-color: blue;
+    color: white;
+    font-size: 35px;
+    border-radius: 12px;
+    border: none;
+}
+
+
+div img{
+    height: 400px;
+    width: 700px;
+}
+
+
+#pods{
+    height: 300px;
+    width: 500px;
+}
+
+
+#watch{
+    height: 300px;
+    width: 800px;
+}
+
+
