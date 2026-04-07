@@ -1,0 +1,21 @@
+/* font weight არის სისქე, მას შეიძლება გადავცეთ მნიშვლენობა, როგორც სიტყვის, ისე
+ რიცხვის სახით.*/
+/* სიტყვის სახით: bold, bolder, lighter, normal. */
+h1{
+    font-weight: bold;
+}
+/* რიცხვის სახით: 100;...;900 */
+h1{
+    font-weight: 400;
+}
+
+
+
+/* font family არის ტექსტის დამწერლობა, კალიგრაფია */
+h1{
+    font-family: serif;
+}
+
+h2{
+    font-family: sans-serif;
+}

@@ -1,0 +1,17 @@
+input{
+    outline: none;
+    background-color: green;
+    border: 3px solid red;
+    color: blue;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+input:focus{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: lighter;
+}

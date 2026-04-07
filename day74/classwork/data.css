@@ -1,0 +1,39 @@
+.a:link{
+    color: red;
+    font-weight: bold;
+    background-color: aqua;
+    text-decoration: none;
+    font-size: 45px;
+    text-align: center;
+    display: block;
+}
+
+.b:hover{
+    color: green;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: azure;
+    font-size: 45px;
+    text-align: center;
+    display: block;
+}
+
+.c:active{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: blanchedalmond;
+    font-size: 45px;
+    text-align: center;
+    display: block;
+}
+
+.d:visited{
+    color: rgb(246, 11, 11);
+    font-weight: bold;
+    text-decoration: none;
+    background-color: rgb(168, 105, 11);
+    font-size: 45px;
+    text-align: center;
+    display: block;
+}

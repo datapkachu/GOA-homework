@@ -1,0 +1,6 @@
+/* list style positions-ს გადაეცემა inside და outside,outside არის თავდაპირველი პოზიცია
+ inside-ს შიგნით შეაქვს ნომრები*/
+
+ul li{
+    list-style:square inside url(image.png);
+}

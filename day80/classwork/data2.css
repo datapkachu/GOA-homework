@@ -1,0 +1,22 @@
+#A{
+    border: 2px solid red;
+    border-top: 2px solid blue;
+    border-bottom: 2px solid yellow;
+    border-left: 2px solid green;
+}
+
+#a{
+    margin: 80px 20px;
+}
+
+#b{
+    margin: 40px;
+}
+
+#c{
+    margin: 10px 60px 35px 40px;
+}
+
+button{
+    margin-bottom: 45px;
+}
